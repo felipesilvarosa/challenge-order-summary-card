@@ -101,7 +101,7 @@ h4 {
 	color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 425px) {
 	body {
 		padding-top: 5rem;
 		background-color: var(--very-pale-blue);
