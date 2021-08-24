@@ -1,0 +1,109 @@
+:root {
+	--pale-blue: #e0e8ff;
+	--bright-blue: #3829e0;
+	--very-pale-blue: #f5f7ff;
+	--desaturated-blue: #7280a7;
+	--dark-blue: #1f2f56;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-image: url('../images/illustration-hero.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 2rem;
+	width: 100%;
+	max-width: 375px;
+	padding: 6rem;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	max-width: 375px;
+}
+
+h1 {
+	color: var(--dark-blue);
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.description {
+	color: var(--desaturated-blue);
+	text-align: center;
+	line-height: 1.6;
+	margin-bottom: 2rem;
+	padding: 0 1rem;
+}
+
+.card {
+	align-items: center;
+	background-color: var(--very-pale-blue);
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem;
+	width: 90%;
+}
+
+h4 {
+	color: var(--dark-blue);
+}
+
+.price {
+	color: var(--desaturated-blue);
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+}
+
+.payment {
+	border-radius: 0.5rem;
+	color: white;
+	background-color: var(--bright-blue);
+	padding: 1rem 5rem;
+	text-align: center;
+	margin: 1rem 0;
+	width: 100%;
+	text-decoration: none;
+}
+
+.cancel {
+	color: var(--desaturated-blue);
+	text-align: center;
+	margin: 1rem 0 2rem;
+	text-decoration: none;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 375px) {
+	body {
+		padding-top: 5rem;
+		background-color: var(--very-pale-blue);
+	}
+}
